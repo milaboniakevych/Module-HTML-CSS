@@ -1,0 +1,828 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body>div{
+    background: #02061A;
+    width: 1440px;
+    height: 4976px;
+
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    position: relative;
+}
+
+/*--------------------header, nav----------------------*/
+header{
+    width: 1440px;
+    height: 813px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+header>nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 554px;
+
+    width: 1061px;
+
+    margin: 102px 187px 188px 192px;
+}
+
+header>nav>ul{
+    list-style-type: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header>nav>ul>li a{
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+header>nav>ul>li:first-child{
+    margin-right: 71px;
+}
+header>nav>ul>li:nth-child(2){
+    margin-right: 47px;
+}
+
+header>nav>ul>li:nth-child(3){
+    margin-right: 44px;
+}
+
+header>nav>h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    text-transform: capitalize;
+    z-index: 1;
+}
+
+.gradient{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/*------------------header, article--------------------------*/
+
+body>div>header>article{
+    width: 1035.16px;
+    height: 498px;
+    display: flex;
+
+}
+body>div>header>article>div{
+    height: 498px;
+    width: 532px;
+    display: flex;
+    gap: 31px;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+body>div>header>article>div>h2{
+    width: 522px;
+    height: 233px;
+    flex-shrink: 0;
+
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+body>div>header>article>div>div{
+    display: flex;
+    gap: 22px;
+}
+body>div>header>article>div>div>button:nth-child(1){
+    border-radius: 50px;
+    background: #23263C;
+    width: 256px;
+    height: 95px;
+    flex-shrink: 0;
+    border-style: none;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+body>div>header>article>div>div>button:nth-child(2){
+    border-radius: 50px;
+    border: 3px solid #23263C;
+    width: 254px;
+    height: 95px;
+    flex-shrink: 0;
+    background: #02061A;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+/*----------------coin's section-----------------*/
+
+body>div>section:nth-child(2){
+    width: 1065px;
+    height: 171px;
+
+    margin: 216px 186px 197px 189px;
+    display: flex;
+    align-items: flex-start;
+
+    flex-direction: column;
+
+    gap: 8px;
+}
+
+body>div>section h4{
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+body>div>section:nth-child(2)>div{
+    height: 125px;
+    width: 1065px;
+    flex-shrink: 0;
+
+    border: 1px solid #5BD2BD;
+    background: #23263C;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body>div>section>div>ul{
+    list-style-type: none;
+    display: flex;
+    gap: 138px;
+}
+
+body>div>section>div>ul>li>a{
+    text-decoration: none;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    text-transform: capitalize;
+
+    opacity: 0.5;
+}
+
+/*---------------nft bonus section--------------------------*/
+
+body>div>section:nth-child(3){
+
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+    height: 634px;
+    width: 1025px;
+
+    gap: 50px;
+}
+
+body>div>section:nth-child(3)>img{
+    width: 428px;
+    height: 480px;
+    margin-top: 59px;
+}
+
+body>div>section:nth-child(3)>div:last-child{
+    width: 547px;
+    height: 634px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+body>div>section:nth-child(3)>div:last-child>div:first-child{
+    width: 547px;
+    height: 468px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+body>div>section:nth-child(3)>div:last-child>div:first-child h3{
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 73px; /* 121.667% */
+}
+
+body>div>section:nth-child(3)>div:last-child>div:first-child h3>span{
+    color: #56CAB1;
+    font-family: Outfit, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 73px;
+}
+
+body>div>section:nth-child(3)>div:last-child>div:first-child p:nth-child(2){
+    color: #4C99BB;
+    font-family: Poppins, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px; /* 119.231% */
+
+    width: 521px;
+    margin-bottom: 6px;
+}
+
+body>div>section:nth-child(3)>div:last-child>div:first-child p:nth-child(3){
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+
+    width: 418px;
+
+    position: relative;
+
+}
+.button{
+    position: relative;
+    width: 126px;
+    height: 68px;
+    margin-top: 7px;
+}
+
+.btn-back, .btn-front{
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+
+    border-radius: 16px;
+    border: 1px solid #56CAB1;
+    width: 126px;
+    height: 68px;
+    background: transparent;
+}
+
+.btn-back{
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+}
+
+.join-us{
+    width: 521px;
+    height: 132px;
+    flex-shrink: 0;
+
+    border-radius: 18px;
+    background: #3A5B6A;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+
+    margin-top: 40px;
+}
+
+.join-us div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 18px;
+}
+
+/*--------------section 'view our nfts'-------------------*/
+.view-nfts{
+    width: 1059px;
+    height: 728.615px;
+    flex-shrink: 0;
+
+    margin-top: 74.24px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: self-end;
+
+    gap: 219px;
+}
+.view-nfts>div:first-child{
+    display: flex;
+    align-items: flex-start;
+
+    flex-direction: column;
+}
+.view-nfts>div:first-child p{
+    display: flex;
+    width: 465px;
+    height: 212px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.view-nfts>div:first-child button{
+    width: 450px;
+    height: 96px;
+    flex-shrink: 0;
+
+    border-radius: 100px;
+    border: 3px solid rgba(84, 197, 173, 0.95);
+    background: #1F143B;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+
+    color: #56CAB1;
+    font-family: Outfit, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+
+    margin-top: 58.37px;
+}
+
+.view-nfts>div:last-child{
+    width: 375px;
+    height: 507px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+
+/*-------------card with 1st monkey----------------*/
+.monkey-1{
+    width: 375px;
+    height: 507px;
+    flex-shrink: 0;
+
+    border-radius: 10px;
+    background: rgba(137, 130, 130, 0.50);
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+    gap: 12px;
+
+    z-index: 1;
+
+    margin-bottom: 110px;
+}
+
+.text{
+    width: 375px;
+    height: 137px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+}
+
+.text>p{
+    color: #56CAB1;
+    -webkit-text-stroke-width: 2;
+    -webkit-text-stroke-color: #02061A;
+    font-family: Outfit, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+
+    padding-left: 29.3px;
+}
+
+.text>div{
+    display: flex;
+    gap: 11.72px;
+}
+
+.text>div>p:first-child{
+    width: 175.781px;
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    padding-left: 14.65px;
+    word-spacing: 3px;
+
+}
+
+.text>div>p:first-child span{
+    color: #23263C;
+    font-family: Outfit, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.text>div>p:last-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    width: 147.461px;
+    height: 51px;
+    flex-shrink: 0;
+
+    border-radius: 3px;
+    border: 2px solid #000;
+    background: #1F143B;
+
+    color: #52A7C6;
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #02061A;
+    font-family: Outfit, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+/*------------card with 2nd monkey----------------*/
+
+.monkey-2{
+    width: 380.311px;
+    height: 466.66px;
+    transform: rotate(-25.337deg);
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(137, 130, 130, 0.50);
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+    gap: 12px;
+
+    position: absolute;
+    top: -150px;
+    left: -250px;
+}
+
+.text-2{
+    width: 375px;
+    height: 137px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+}
+
+.text-2>p:first-child {
+    display: flex;
+    width: 225.81px;
+    height: 46.022px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #56CAB1;
+    -webkit-text-stroke-width: 2;
+    -webkit-text-stroke-color: #02061A;
+    font-family: Outfit, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+
+    padding-left: 29.3px;
+}
+.text-2>p:last-child{
+    width: 178.271px;
+    height: 46.022px;
+    flex-shrink: 0;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    padding-left: 15px;
+    word-spacing: 3px;
+}
+
+.text-2>p:last-child span{
+    color: #23263C;
+    font-family: Outfit, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/*-----------clients review section--------------------------*/
+
+.review{
+    width: 1063px;
+    height: 701px;
+
+    margin-top: 234px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.review>p{
+    color: #5BD2BF;
+    font-family: Outfit, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.review>h4{
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: capitalize;
+
+    width: 427px;
+    height: 152px;
+
+}
+
+.review>div{
+    display: flex;
+    gap: 14px;
+}
+
+.review>div>article {
+    width: 345px;
+    height: 360px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #24293F;
+
+    margin-top: 147px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+    position: relative;
+}
+
+.review>div>article p:nth-child(1){
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+
+    margin-top: 83px;
+    margin-bottom: 27px;
+}
+.review>div>article p:nth-child(2){
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+
+    width: 302px;
+}
+.review div article img {
+    border-radius: 75px;
+    filter: grayscale(100%);
+
+    position: absolute;
+    top: -75px;
+}
+
+/*----------------buy a subscription------------------*/
+
+.subscription{
+    width: 1063px;
+    height: 378px;
+    flex-shrink: 0;
+
+    border-radius: 20px;
+    background: linear-gradient(97deg, #1F143B -19.45%, #3C8273 103.56%);
+
+    margin-top: 208px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+}
+.subscription h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px; /* 100% */
+
+    width: 312px;
+    height: 180px;
+
+    margin-top: 24px;
+    margin-bottom: 39px;
+}
+.subscription button{
+    width: 344px;
+    height: 85px;
+    flex-shrink: 0;
+
+    border-radius: 50px;
+    background: #000;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px; /* 150% */
+    text-transform: uppercase;
+
+    border-style: none;
+}
+/*-----------------footer--------------------*/
+.footer{
+    width: 1037px;
+    height: 217px;
+
+    margin-top: 262px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ftr{
+    width: 1037px;
+    height: 217px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.ftr p{
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.ftr div{
+    display: flex;
+    flex-direction: column;
+}
+
+.ftr ul{
+    list-style-type: none;
+}
+
+.ftr ul li a{
+    text-decoration: none;
+
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.ftr div ul{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.ftr form label{
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+form>div{
+    margin-top: 9px;
+    position: relative;
+    display: inline-block;
+}
+
+form>div input{
+    width: 253px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #3B7C70;
+
+    padding-left: 12px;
+    border: 0;
+}
+
+form>div input::placeholder{
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    opacity: 0.8;
+}
+
+form>div button{
+    width: 100px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #262E48;
+
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+
+    border-style: none;
+
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    bottom: 0;
+}
