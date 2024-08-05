@@ -728,6 +728,7 @@ body>div>section:nth-child(3)>div:last-child>div:first-child p:nth-child(3){
     justify-content: center;
     align-items: center;
 
+
 }
 
 .ftr{
@@ -825,4 +826,17 @@ form>div button{
     right: 1px;
     top: 1px;
     bottom: 0;
+}
+
+.line-bottom{
+    width: 1440px;
+    height: 9px;
+    flex-shrink: 0;
+
+    border-radius: 20px;
+    background: linear-gradient(97deg, #1F143B -19.45%, #3C8273 103.56%);
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
